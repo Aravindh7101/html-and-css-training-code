@@ -1,0 +1,470 @@
+/* * {
+    background-color: brown;
+} */
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p span {
+    font-weight: bold;
+}
+
+.INTRO {
+    background-color: brown;
+    /* color: white; */
+}
+
+.text-align {
+    color: white;
+}
+
+/* css background start */
+
+/* #INTRO{
+    background-color: red;
+} */
+
+/* .image-add img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+/* images style start */
+/* #para{
+background-color: brown;
+}
+.imag h1{
+    color: orangered;
+} */
+.imag {
+    /* background-image: url(./img/tree.jpg); */
+    /* background-position: center; */
+    /* background-repeat: repeat; */
+    background-color: brown;
+    background-image: url(./img/tree.jpg);
+    height: 150%;
+    /* height: 200; */
+}
+
+/* .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+} */
+/* 
+p {
+    color: white;
+} */
+
+
+/* css background color end */
+
+
+
+
+
+/* CSS BORDER STYLE START */
+.BORDERS {
+    background-color: blueviolet;
+    /* color: white; */
+}
+
+/*.BORDERS h1{
+    color: orange;
+    border-style: solid;
+    border-color: black;
+    /* border-color: greenyellow; */
+/* border-color: brown;
+    border-left: dashed;
+    border-top: dashed;
+    border-right: dashed;
+    border-bottom: dashed; */
+
+.BORDERS h1 {
+    color: brown;
+    border-color: aqua;
+    border-bottom: solid;
+    border-top: dashed;
+    border-left: dashed;
+    border-right: solid;
+}
+
+.BORDERS button {
+    color: green;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+/* CSS BORDER STYLE END */
+
+/* CSS BOX MODEL START */
+/* CSS MARGIN */
+.margin {
+    color: blue;
+}
+
+/* .margin button{
+    margin: 50px;
+    margin-top: 10px;
+margin-left: 15px;
+} */
+.margin button {
+    margin: 10px 5px 10px 5px;
+}
+
+/* CSS MARGIN END */
+/* CSS PADDING START */
+.padding {
+    background-color: yellow;
+}
+
+.padding h1 {
+    border-style: dashed;
+    border-color: red;
+    /* padding: 20px; */
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* CSS PADDING END */
+/* CSS HEIGHT AND width START  */
+.testimonials {
+    padding: 20px;
+    width: auto;
+    /* widh auto used for the padding content alignment is adsuted for the crop size */
+    background-color: brown;
+}
+
+/* CSS HEIGHT AND width END  */
+/* CSS BORDER OUTLINE START */
+.outline h1 {
+    padding: 20px;
+    border: 4px solid green;
+    outline: 8px solid brown;
+}
+
+/* CSS BORDER OUTLINE STOP */
+/* CSS BOX MODEL END */
+
+
+/* CSS TEXT FORMATING START */
+.textformm {
+    color: white;
+    padding: 80px;
+    background-color: brown;
+    text-align: justify;
+    /* text-decoration: underline; */
+    /* text-transform: capitalize; */
+    /* text-indent: 50px; */
+    /* letter-spacing: 10px; */
+    line-height: 30px;
+    /* direction: rtl; */
+    word-spacing: 10px;
+}
+
+.textformm h1 {
+    text-shadow: 10px 5px black;
+}
+
+/* CSS TEXT FORMATING STOP */
+
+
+/* css links start */
+.facebook {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: blue;
+}
+
+.whatsapp {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: green;
+}
+
+.twitter {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: skyblue;
+}
+
+/* css link end  */
+
+/* CSS LISTS START */
+ol {
+    padding: 20px;
+    list-style-position: inside;
+    background: green;
+    list-style-image: url(./img/list.png);
+}
+
+/* .list li {
+    background: red;
+}  */
+
+/* CSS LIST STOP */
+
+/* CSS TABLE START */
+table {
+    border-collapse: collapse;
+    /* border-collapse used to remove one borderline  */
+    width: 100%;
+    text-align: center;
+}
+
+thead {
+    font-size: 20px;
+    background-color: orange;
+}
+
+td {
+    padding: 10px;
+    /* background-color: brown; */
+}
+
+tr:hover {
+    background-color: yellow;
+}
+
+tr:nth-child(even) {
+    background-color: olive;
+}
+
+/* CSS TABLE END */
+
+/* CSS DISPLAY START  */
+ul {
+    font-weight: bold;
+    color: orange;
+}
+
+ul li {
+    margin: 40px;
+    display: inline;
+}
+
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+
+/* CSS DISPLAY END  */
+
+/* css float starts */
+.float {
+    padding: 30px;
+    color: white;
+    background-color: brown;
+    text-align: justify;
+}
+
+.float img {
+    /* padding: 5pxpx; */
+    /* float: right    ; */
+    clear: both;
+    float: left;
+    padding: 5px;
+    /* padding: 5px; */
+    border: 4px solid white;
+    /* margin-right: 20px; */
+}
+
+/* css float ends */
+
+
+/* CSS LAYOUT START */
+.layout h1 {
+    text-align: center;
+}
+
+.layout div {
+    padding: 20px 0;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.navbar {
+    background-color: orange;
+}
+
+.menu {
+    height: 250px;
+    width: 33.33%;
+    float: left;
+    background-color: aqua;
+}
+
+.center {
+    height: 250px;
+    width: 33.33%;
+    float: left;
+    background-color: blue;
+}
+
+.sidebar {
+    height: 250px;
+    width: 33.33%;
+    float: left;
+    background-color: brown;
+}
+
+.footer {
+    clear: both;
+    /* clear is used to align the footer padding  */
+    background-color: yellow;
+}
+
+/* CSS LAYOUT END */
+
+/* CSS COMBINATORS START */
+/* .combinators h1{
+    text-align: center;
+} */
+.combi{
+    float: left;
+    color: white;
+    margin: 250px 0;
+    background-color: brown;
+}
+.combi h2{
+    text-align: center;
+    color: black;
+}
+.imageadd ol{
+    /* padding: 2px; */
+    background: none;
+    list-style: lower-alpha;
+    /* margin: 10px 5px; */
+}
+.imageadd img{
+    /* inline-size: auto; */
+    float: left;
+    padding: 10px;
+    margin-right: 40px;
+    /* background-color: brown; */
+}
+.imageadd{
+    background-color: brown;
+}
+.clearfix{
+    clear: both;
+}
+.general >h4{
+    color:gold;
+}
+.adjacent + h4{
+    color: sienna;
+}
+
+/* CSS COMBINATORS END  */
+
+/* CSS PSUEDO  ELEMENTS START */
+.psuedo h1{
+    text-align: center;
+    color: brown;
+}
+.psuedo > h2::first-letter{
+    color: brown;
+    font-size: 30px;
+    font-weight: bold;
+}
+.psuedo > p ::first-line{
+    color: darkred;
+}
+.psuedo > h2 ::before{
+    content: "Selection ";
+}
+::selection{
+    color: indigo;
+    background-color: cornflowerblue;
+}
+/* PSUEDO ELEMENTS END  */
+
+
+/* <!-- CSS OPACITY START --> */
+.opacity{
+    background-color: brown;
+}
+.opacity > img{
+    width: 50%;
+    height:500px;
+    opacity: 0.5;
+}
+.opacity > img:hover{
+    opacity: 1;
+}
+/* <!-- CSS OPACITY START --> */
+
+/* <!-- CSS ATTRIBUTES START --> */
+span[title="content-char"]{
+    color: brown;
+}
+/* [class ^="content"]{
+    background-color: brown;
+} */
+[class ^="char"]{
+    background-color: brown;
+}
+[class *="pipe"]{
+    background-color: cyan;
+}
+/* <!-- CSS ATTRIBUTES END --> */
+
+/* CSS FORM START */
+.form{
+    background-color:tan;
+    padding: 20px;
+}
+[type="text"]{
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5pc;
+    box-sizing: border-box;
+}
+[type="submit"]{
+    padding: 10px;
+    width: 100%;
+    background-color: green;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+}
+[type="submit"]:hover{
+    background-color: bisque;
+}
+/* .form  input{
+    width: 100%;
+} */
+/* CSS  FORM END */
+
+
+/* CSS COUNTER START */
+.counter{
+    padding: 20px;
+    background-color: brown;
+}
+.counter p ::before{
+    counter-increment: videos;
+}
+/* CSS COUNTER END  */
+
+
+.media{
+    background-color: chocolate;
+}
+@media screen and (max-width:900px) {
+    body{
+        background-color: tomato;
+    }
+}
